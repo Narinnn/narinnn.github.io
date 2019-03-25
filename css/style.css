@@ -1,0 +1,225 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+
+}
+
+li {
+	list-style: none;
+}
+
+.main-header,
+.nav-menu,
+.wrapper {
+	border: 1px solid rgba(0,0,0,.2);
+}
+
+.main-header {
+	
+	display: flex;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    height: 70px;
+    
+}
+
+input {
+	height: 30px;
+	width: 400px;
+	border: 0;
+}
+
+input.search-field {
+	border: 1px solid #e1e1e1;
+}
+
+.btn {
+	
+    position: relative;
+    display: inline-block;
+    margin: 0 10px 20px 0;
+    
+    height: 34px;
+    border: 1px solid #e1e1e1;
+   
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.btn-1 {
+	/*position: relative;
+    display: inline-block;
+    margin: 0 10px 20px 0;*/
+    
+    height: 34px;
+    border: 1px solid #e1e1e1;
+    color: #969595;
+   
+    text-align: center;
+    background-color: #e1e1e1;
+
+}
+
+
+.btn:hover {
+	
+    background-color:  #ffdb4d; 
+
+}
+
+input.btn {
+	width: 70px;
+	border-left: none;
+	margin-left: -4px;
+}
+.header-logo {
+	margin: 20px 20px;
+	
+}
+
+
+.litera {
+	color: red;
+	font-weight: bold;
+}
+
+.yndx {
+	font-weight: bold;
+
+}
+
+
+
+.nav-link {
+	display: flex;
+	margin: 20px 115px;
+
+}
+
+.nav-item {
+	margin: auto 20px;
+}
+
+
+.nav-item a:active {
+	border-bottom: 3px solid black;
+}
+
+.name-link {
+	display: flex;
+}
+
+.location-map a {
+	font-size: 12px;
+	color: blue;
+	
+}
+
+.location-map {
+	margin: 30px -70px;
+
+}
+
+h1 {
+	margin: 20px 173px;
+}
+
+.site-link {
+	margin: 0 120px;
+	
+}
+
+.link-items {
+	display: flex;
+}
+
+.link-item a {
+	border: 1px solid #e1e1e1;
+	padding: 5px 15px;
+	border-left: none;
+
+}
+
+.link-item a:nth-child(1) {
+	border-left: 1px solid #e1e1e1;
+}
+
+.link-item a:active {
+	background-color: #ffdb4d; 
+}
+
+.info {
+	margin: 10px;
+}
+
+.reviews {
+	display: flex;
+}
+
+.reviews-name {
+	margin: 25px 173px;
+}
+
+.reviews-mark {
+	background-color: #ffdb4d;
+    padding: 10px;
+    position: relative;
+    height: 5px;
+    margin: 25px -151px
+}
+
+.reviews-mark::after {
+	content: '';
+    position: absolute;
+    left: 43px;
+    bottom: 0px;
+    border: 12px solid transparent;
+    border-left: 10px solid #ffdb4d;
+
+}
+
+.comments {
+	margin: 10px 131px;
+	width: 500px;
+}
+
+.name {
+	font-style: normal;
+	font-weight: bold;
+	position: relative;
+}
+
+.mark,.date,.review-link,.full-review {
+	color: #b1aeae;
+	font-size: 12px;
+}
+
+.new-comment {
+	margin: 0 170px 30px;
+}
+
+.new-comments p{
+	display: block;
+	margin: 10px 170px;
+}
+
+.new-comments .btn-1 {
+	margin: 0 -277px;
+}
+
+.all-comments .btn-1 {
+	margin: 30px 173px;
+	width: 450px;
+
+}
